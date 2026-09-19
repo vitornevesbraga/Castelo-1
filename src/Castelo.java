@@ -4,10 +4,10 @@ public class Castelo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Recebendo a dimensão da torre //
         System.out.print("Informe o tamanho: ");
         int tamanho = scanner.nextInt();
 
-        // Recebendo
         System.out.println("--- DIMENSAO " + tamanho + " x " + tamanho + " ---");
 
 
